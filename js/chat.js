@@ -118,11 +118,10 @@ async function callGroqAPI(userMessage) {
     ];
 
     try {
-        const response = await fetch(NYAYBOT_CONFIG.API_URL, {
+        const response = await fetch(NYAYBOT_CONFIG.CHAT_API_URL, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${NYAYBOT_CONFIG.API_KEY}`
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 model: NYAYBOT_CONFIG.MODEL,

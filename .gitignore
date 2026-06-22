@@ -3,8 +3,8 @@
 # Educational guide (not for public repo)
 teach.md
 
-# API configuration (contains secret keys)
-js/config.js
+# API keys and environment variables
+.env
 
 # OS files
 .DS_Store

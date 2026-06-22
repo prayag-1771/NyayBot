@@ -56,11 +56,10 @@ async function autoFillFromChat() {
             }
         ];
 
-        const response = await fetch(NYAYBOT_CONFIG.API_URL, {
+        const response = await fetch(NYAYBOT_CONFIG.EXTRACT_API_URL, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${NYAYBOT_CONFIG.API_KEY}`
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 model: NYAYBOT_CONFIG.MODEL,

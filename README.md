@@ -125,4 +125,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-*Built with ❤️ for the people of India*
+*Built with respect for the people of India*
+
