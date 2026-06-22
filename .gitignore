@@ -1,0 +1,16 @@
+# NyayBot - Git Ignore
+
+# Educational guide (not for public repo)
+teach.md
+
+# API configuration (contains secret keys)
+js/config.js
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
